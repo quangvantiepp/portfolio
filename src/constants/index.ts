@@ -24,13 +24,13 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  // meta,
+  // starbucks,
+  // tesla,
+  // shopify,
+  // carrent,
+  // jobit,
+  // tripguide,
   threejs,
 } from "../assets";
 
@@ -55,15 +55,15 @@ const services: TService[] = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Backend Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "IoT Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Coming soon!",
     icon: creator,
   },
 ];
@@ -126,10 +126,11 @@ const technologies: TTechnology[] = [
 const experiences: TExperience[] = [
   {
     title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
+    companyName: "SRV",
+    // icon: starbucks,
+    icon:"",
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Dec 2022 - Dec 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -137,25 +138,26 @@ const experiences: TExperience[] = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "React Native Developer",
+  //   companyName: "Tesla",
+  //   icon: tesla,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2021 - Feb 2022",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
   {
     title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
+    companyName: "SRV",
+    // icon: shopify,
+    icon:"",
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2024 - Dec 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -165,58 +167,63 @@ const experiences: TExperience[] = [
   },
   {
     title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
+    companyName: "SRV",
+    // icon: meta,
+    icon:"",
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    date: "Jan 2025 - Future",
+    // points: [
+    //   "Developing and maintaining web applications using React.js and other related technologies.",
+    //   "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //   "Implementing responsive design and ensuring cross-browser compatibility.",
+    //   "Participating in code reviews and providing constructive feedback to other developers.",
+    // ],
+    points:["Coming soon!"]
   },
 ];
 
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "...",
+    name: "...",
+    designation: "My Colleagues",
+    company: "SRV",
+    // image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image:""
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "...",
+    name: "...",
+    designation: "My friends",
+    company: "SRV",
+    // image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image:""
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "...",
+    name: "...",
+    designation: "My managers",
+    company: "SRV",
+    // image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image:""
   },
 ];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Coming soon!",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "spring",
         color: "green-text-gradient",
       },
       {
@@ -224,41 +231,43 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    // image: carrent,
+    image:"",
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Coming soon!",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "spring",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "emotion/css",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    // image: jobit,
+    image:"",
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Coming soon!",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "spring",
         color: "green-text-gradient",
       },
       {
@@ -266,7 +275,8 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    // image: tripguide,
+    image:"",
     sourceCodeLink: "https://github.com/",
   },
 ];
