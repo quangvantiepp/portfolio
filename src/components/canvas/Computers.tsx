@@ -65,6 +65,7 @@ const ComputersCanvas = () => {
           camera={{ position: [20, 3, 5], fov: 25 }}
           gl={{ preserveDrawingBuffer: true }}
         >
+          <ambientLight intensity={1} />
           <Suspense fallback={<CanvasLoader />}>
             <OrbitControls
               enablePan={false}
